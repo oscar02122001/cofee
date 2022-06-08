@@ -1,16 +1,25 @@
-body{
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-top: 115px !important;
 }
-img{
+
+img {
     max-width: 100%;
 }
-.visually-hidden{
-    clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+a {
+    text-decoration: none;
 }

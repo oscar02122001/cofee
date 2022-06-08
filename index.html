@@ -6,148 +6,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cofee</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header class="header">
-        <div>
-            <img src="images/header_logo.svg" alt="Site header logo">
+        <div class="container">
+            <div class=" header__container">
+                <img class="header__container-img" src="images/header_logo.svg" alt="Site header logo">
+                <button class="header__burger">
+                    <span class="header__burger-inner"></span>
+                </button>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-itom">
+                            <a class="header__itom-link active" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__list-itom">
+                            <a class="header__itom-link " href="about.html">
+                                About US
+                            </a>
+                        </li>
+                        <li class="header__list-itom">
+                            <a class="header__itom-link" href="#">
+                                Create your plan
+                            </a>
+                        </li>
+                    </ul>
 
-            <nav>
-                <ul>
-                    <a href="">
-                        <li>Home</li>
-                    </a><a href="">
-                        <li>About US</li>
-                    </a><a href="">
-                        <li> Create your plan</li>
-                    </a>
-                </ul>
-            </nav>
+
+                </nav>
+
+            </div>
         </div>
     </header>
+
     <main>
-        <div>
-            <p>Great coffee
-                made simple.</p>
-            <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best
-                roasters delivered directly to your door, at your schedule.</p>
-            <a href="#">Create your plan</a>
+
+        <div class="container intro">
+            <div class="intro__container">
+                <div class="intro__wrapper">
+                    <p class="intro__title">Great coffee
+                        made simple.</p>
+                    <p class="intro__desc">Start your mornings with the world’s best coffees. Try our expertly
+                        curated
+                        artisan coffees from our best
+                        roasters delivered directly to your door, at your schedule.</p>
+                    <a class="intro__link use-link" href="#">Create your plan</a>
+                </div>
+            </div>
         </div>
 
-        <section>
-            <ul>
-                <li>
-                    <img src="images/type1.svg" alt="Type cofee">
-                    <h3>Gran Espresso</h3>
-                    <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
-                </li>
-                <li>
-                    <img src="images/type2.svg" alt="Type cofee">
-                    <h3>Planalto</h3>
-                    <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
-                </li>
-                <li>
-                    <img src="images/type3.svg" alt="Type cofee">
-                    <h3>Piccollo</h3>
-                    <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
-                </li>
-                <li>
-                    <img src="images/type4.svg" alt="Type cofee">
-                    <h3>Danche</h3>
-                    <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
-                </li>
 
-            </ul>
+
+        <section class="coffe-type">
+            <div class="container coffe-type__container">
+                <h2 class="coffe-type__title">our collection</h2>
+                <ul class="coffe-type__list">
+
+                    <li class="coffe-type__list-itom">
+                        <img class="coffe-type__img" src="images/type1.svg" alt="Type cofee">
+                        <div class="coffe-type__wrep">
+                            <h3 class="coffe-type__itom-title">Gran Espresso</h3>
+                            <p class="coffe-type__itom-desc">Light and flavorful blend with cocoa and black pepper for
+                                an
+                                intense experience</p>
+                        </div>
+                    </li>
+                    <li class="coffe-type__list-itom">
+                        <img class="coffe-type__img" src="images/type2.svg" alt="Type cofee">
+                        <div class="coffe-type__wrep">
+                            <h3 class="coffe-type__itom-title">Planalto</h3>
+                            <p class="coffe-type__itom-desc">Brazilian dark roast with rich and velvety body, and hints
+                                of
+                                fruits and nuts</p>
+                        </div>
+                    </li>
+                    <li class="coffe-type__list-itom">
+                        <img class="coffe-type__img" src="images/type3.svg" alt="Type cofee">
+                        <div class="coffe-type__wrep">
+                            <h3 class="coffe-type__itom-title">Piccollo</h3>
+                            <p class="coffe-type__itom-desc">Mild and smooth blend featuring notes of toasted almond and
+                                dried cherry</p>
+                        </div>
+                    </li>
+                    <li class="coffe-type__list-itom">
+                        <img class="coffe-type__img" src="images/type4.svg" alt="Type cofee">
+                        <div class="coffe-type__wrep">
+                            <h3 class="coffe-type__itom-title">Danche</h3>
+                            <p class="coffe-type__itom-desc">Ethiopian hand-harvested blend densely packed with vibrant
+                                fruit notes</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
         </section>
 
         <div>
             <div class="advantages">
-                <div class="container advantages__container">
-                    <div class="advantages__content">
-                        <p class="advantages__titel">Why choose us?</p>
-                        <p class="advantages__discription">A large part of our role is choosing which particular coffees will be featured
-                            in our range. This means working closely with the best coffee growers to give
-                            you a more impactful experience on every level.</p>
-        
+                <div class="container ">
+                    <div class="advantages__container">
+                        <div class="advantages__content">
+                            <p class="advantages__title">Why choose us?</p>
+                            <p class="advantages__discription">A large part of our role is choosing which particular
+                                coffees
+                                will be featured
+                                in our range. This means working closely with the best coffee growers to give
+                                you a more impactful experience on every level.</p>
+
+                        </div>
+
+
+                        <ul class="advantages__list">
+                            <li class="advantages__itom advantages__itom--quality">
+                                <div class="advantages__itom-wrap">
+                                    <h3 class="advantages__itom-title">Best quality</h3>
+                                    <p class="advantages__itom-discription">Discover an endless variety of the world’s
+                                        best
+                                        artisan coffee from each of our roasters.</p>
+                                </div>
+                            </li>
+                            <li class="advantages__itom advantages__itom--exculsive-benefit">
+                                <div class="advantages__itom-wrap">
+                                    <h3 class="advantages__itom-title"> Exclusive benefits</h3>
+                                    <p class="advantages__itom-discription">Special offers and swag when you subscribe,
+                                        including 30% off your first shipment.</p>
+                                </div>
+                            </li>
+                            <li class="advantages__itom advantages__itom--shipping">
+                                <div class="advantages__itom-wrap">
+                                    <h3 class="advantages__itom-title"> Free shipping</h3>
+                                    <p class="advantages__itom-discription">We cover the cost and coffee is delivered
+                                        fast.
+                                        Peak
+                                        freshness: guaranteed.</p>
+                                </div>
+                            </li>
+
+                        </ul>
                     </div>
-                   
-                    <ul class="advantages__list">
-                        <li class="advantages__itom advantages__itom--quality">                     
-                            <h3 class="advantages__itom-titel">Best quality</h3>
-                            <p class="advantages__itom-discription">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
-                        </li>
-                        <li class="advantages__itom advantages__itom--exculsive-benefit">                           
-                            <h3 class="advantages__itom-titel">  Exclusive benefits</h3>
-                            <p class="advantages__itom-discription">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
-                        </li>
-                        <li class="advantages__itom advantages__itom--shipping">                         
-                            <h3 class="advantages__itom-titel">  Free shipping</h3>
-                            <p class="advantages__itom-discription">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
-                        </li>
-    
-                    </ul>
                 </div>
-                
+
             </div>
         </div>
 
-        <div>
-            <p>How it works</p>
-            <div>
+        <div class="steps">
+            <div class="container steps__container">
+                <p class="steps__title">How it works</p>
+                <div class="steps__line">
+                    <span class="steps__btn"></span>
+                    <span class="steps__circle"></span>
+                    <span class="steps__circle-middle"></span>
+                    <span class="steps__circle-end"></span>
+
+                </div>
+
+                <ul class="steps__list">
+                    <li class="steps__itom">
+                        <p class="steps__itom-numb">01</p>
+                        <h3 class="steps__itom-title">Pick your <br>
+                            coffee</h3>
+                        <p class="steps__itom-disc">Select from our evolving range of artisan coffees. Our beans are
+                            ethically sourced and we pay
+                            fair prices for them. There are new coffees in all profiles every month for you to try out.
+                        </p>
+                    </li>
+                    <li class="steps__itom">
+                        <p class="steps__itom-numb">02</p>
+                        <h3 class="steps__itom-title">Choose the frequency</h3>
+                        <p class="steps__itom-disc">Customize your order frequency, quantity, even your roast style and
+                            grind type. Pause, skip or
+                            cancel your subscription with no commitment through our online portal.</p>
+                    </li>
+                    <li class="steps__itom">
+
+                        <p class="steps__itom-numb">03</p>
+                        <h3 class="steps__itom-title">Receive and enjoy!</h3>
+                        <p class="steps__itom-disc">We ship your package within 48 hours, freshly roasted. Sit back
+                            and
+                            enjoy award-winning
+                            world-class coffees curated to provide a distinct tasting experience.</p>
+                    </li>
+
+
+                </ul>
+                <a class="steps__link use-link" href="#">Create your plan</a>
 
             </div>
 
-            <ul>
-                <li>
-                    <p>01</p>
-                    <h3>Pick your
-                        coffee</h3>
-                    <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay
-                        fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-                </li>
-                <li>
-                    <p>02</p>
-                    <h3>Choose the frequency</h3>
-                    <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or
-                        cancel your subscription with no commitment through our online portal.</p>
-                </li>
-                <li>
-                    <p>03</p>
-                    <h3>Receive and enjoy!</h3>
-                    <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-                        world-class coffees curated to provide a distinct tasting experience.</p>
-                </li>
-            </ul>
-            <a href="#">Create your plan</a>
         </div>
 
-        <footer>
-            <div>
-                <img src="images/header_logo.svg" alt="Footer logo">
-                <nav>
-                    <ul>
-                        <a href="#">
-                            <li>Hom</li>
-                        </a><a href="#">
-                            <li>About US</li>
-                        </a><a href="#">
-                            <li>Create your plan</li>
-                        </a>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class=" footer__container">
+                <img class="footer__logo" src="images/footer_logo.svg" alt="Footer logo">
+                <nav class="nav footer__nav">
+                    <ul class="nav__list footer--list">
+                        <li class="nav__itom nav__itom--footer">
+                            <a class="nav__itom-link footer--link active--footer" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav__itom nav__itom--footer">
+                            <a class="nav__itom-link footer--link" href="about.html">
+                                About US
+                            </a>
+                        </li>
+                        <li class="nav__itom nav__itom--footer">
+                            <a class="nav__itom-link footer--link" href="#">
+                                Create your plan
+                            </a>
+                        </li>
                     </ul>
                 </nav>
 
-                <div>
-                    <a href="#"><img src="images/Path.svg" alt="Networking"></a>
-                    <a href="#"><img src="images/Path (1).svg" alt="Networking"></a>
-                    <a href="#"><img src="images/path3.svg" alt="Networking"></a>
+                <div class="footer__software">
+                    <a class="footer__software-link " href="#">
+                        <svg class="footer__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Path"
+                                d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z"
+                                fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a class="footer__software-link" href="#">
+                        <svg class="footer__svg" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z"
+                                fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a class="footer__software-link" href="#"><svg class="footer__svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 0C8.741 0 8.333 0.014 7.053 0.072C2.695 0.272 0.273 2.69 0.073 7.052C0.014 8.333 0 8.741 0 12C0 15.259 0.014 15.668 0.072 16.948C0.272 21.306 2.69 23.728 7.052 23.928C8.333 23.986 8.741 24 12 24C15.259 24 15.668 23.986 16.948 23.928C21.302 23.728 23.73 21.31 23.927 16.948C23.986 15.668 24 15.259 24 12C24 8.741 23.986 8.333 23.928 7.053C23.732 2.699 21.311 0.273 16.949 0.073C15.668 0.014 15.259 0 12 0ZM12 2.163C15.204 2.163 15.584 2.175 16.85 2.233C20.102 2.381 21.621 3.924 21.769 7.152C21.827 8.417 21.838 8.797 21.838 12.001C21.838 15.206 21.826 15.585 21.769 16.85C21.62 20.075 20.105 21.621 16.85 21.769C15.584 21.827 15.206 21.839 12 21.839C8.796 21.839 8.416 21.827 7.151 21.769C3.891 21.62 2.38 20.07 2.232 16.849C2.174 15.584 2.162 15.205 2.162 12C2.162 8.796 2.175 8.417 2.232 7.151C2.381 3.924 3.896 2.38 7.151 2.232C8.417 2.175 8.796 2.163 12 2.163ZM5.838 12C5.838 8.597 8.597 5.838 12 5.838C15.403 5.838 18.162 8.597 18.162 12C18.162 15.404 15.403 18.163 12 18.163C8.597 18.163 5.838 15.403 5.838 12ZM12 16C9.791 16 8 14.21 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12C16 14.21 14.209 16 12 16ZM16.965 5.595C16.965 4.8 17.61 4.155 18.406 4.155C19.201 4.155 19.845 4.8 19.845 5.595C19.845 6.39 19.201 7.035 18.406 7.035C17.61 7.035 16.965 6.39 16.965 5.595Z"
+                                fill="currentColor"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </footer>
 
-    </main>
-
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

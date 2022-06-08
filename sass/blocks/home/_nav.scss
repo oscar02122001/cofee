@@ -1,0 +1,23 @@
+.nav__list {
+    @include reset-list;
+    display: flex;
+}
+
+.nav__itom {
+    margin-right: 33px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.nav__itom-link{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}
