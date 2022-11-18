@@ -346,7 +346,6 @@ body {
   padding: 0;
   font-family: 'Fraunces', Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  margin-top: 115px !important;
 }
 
 img {
@@ -392,13 +391,45 @@ a {
   font-display: swap;
 }
 
-.header {
+@-webkit-keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 45px 0;
+}
+
+.sticky {
+  -webkit-animation: open 0.2s linear;
+          animation: open 0.2s linear;
+  left: 15px;
+  right: 15px;
   position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
   z-index: 3;
-  background-color: #fff;
 }
 
 .header__list {
@@ -444,20 +475,6 @@ a {
 
 .active {
   color: #2C343E;
-}
-
-.header__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 43px;
-  margin-bottom: 45px;
 }
 
 .header__burger {
@@ -621,7 +638,6 @@ a {
 
 .intro__container {
   margin: 0 auto;
-  margin-top: 45px;
   padding-top: 117px;
   padding-bottom: 116px;
   background-image: url("../images/intro.jpg");
